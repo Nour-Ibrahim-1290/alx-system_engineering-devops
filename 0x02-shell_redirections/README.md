@@ -1,1 +1,1 @@
-Solving Shell i/O and Redirections Project
+Solving Shell I/O and Redirections Project
