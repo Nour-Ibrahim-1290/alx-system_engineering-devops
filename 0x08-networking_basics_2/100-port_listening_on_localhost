@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Poer listening on LocalHost
+
+nc -lk localhost 98
