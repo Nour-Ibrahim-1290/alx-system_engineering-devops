@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # configuration changes automation using Puppet
 
-file { 'ect/ssh/ssh_config': 
-	ensure => present,
+file { 'etc/ssh/ssh_config': 
+	ensure  => present,
 	content => "
 		#SSH client configuration
-		host*
+		Host*
 		IdentityFile ~/.ssh/school
 		PasswordAuthentication no
 		",
